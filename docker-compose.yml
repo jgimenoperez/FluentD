@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  fluentd_acb:
+    image: puzolmongol/fluentd_acb
+    container_name: fluentd_acb
+    ports: 
+      - 24224:24224
+      
