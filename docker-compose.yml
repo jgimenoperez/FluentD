@@ -7,3 +7,4 @@ services:
       - 24224:24224
     restart: always  
       
+#docker run -it -p 24224:24224 -v C:\DEVLAB\PRUEBA_ACB\FLUENTD\fluent.conf:/fluentd/etc/demo.conf -e FLUENTD_CONF=demo.conf puzolmongol/fluentd_acb:latest   
